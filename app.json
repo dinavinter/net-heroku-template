@@ -1,9 +1,9 @@
 {
-  "name": "AspNet5DemoApp",
-  "description": "Demo app on ASP.NET Core",
-  "repository": "https://github.com/jincod/AspNet5DemoApp",
+  "name": "net-heroku-template",
+  "description": "Template heroku app on ASP.NET Core",
+  "repository": "https://github.com/dinavinter/net-heroku-template",
   "keywords": ["aspnet", "core"],
-  "stack": "heroku-16",
+  "stack": "heroku-20",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs"
