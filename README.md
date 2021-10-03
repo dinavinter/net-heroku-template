@@ -1,6 +1,6 @@
 # ASP.NET Core Demo App
 
-[![Build status](https://ci.appveyor.com/api/projects/status/p3iet9wrmg8jxlmx?svg=true)](https://ci.appveyor.com/project/jincod/aspnet5demoapp)
+[![Build status](https://ci.appveyor.com/api/projects/status/p3iet9wrmg8jxlmx?svg=true)](https://ci.appveyor.com/project/dinavinter/net-heroku-template)
 
 ## Usage
 
@@ -18,7 +18,7 @@ npm start
 Using custom buildpack [dotnetcore-buildpack](https://github.com/jincod/dotnetcore-buildpack)
 
 ```bash
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack
+heroku buildpacks:set https://github.com/dinavinter/net-heroku-template
 heroku buildpacks:add --index 1 heroku/nodejs
 ```
 
@@ -28,7 +28,7 @@ heroku buildpacks:add --index 1 heroku/nodejs
 
 Click the button below to set up this sample app on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jincod/AspNet5DemoApp)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinavinter/net-heroku-template)
 
 ## Blog posts
 
